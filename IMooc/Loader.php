@@ -5,7 +5,6 @@ class Loader
 {
     static function autoload($calss)
     {
-
         require BASEDIR.'/'.str_replace('\\','/',$calss).'.php';
 
     }
