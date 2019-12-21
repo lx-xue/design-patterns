@@ -16,7 +16,7 @@ class MySQL implements IDatabase
     function query($sql)
     {
         //sql语句执行结果(mysql方法)
-        return mysqli_query($sql);
+        return mysql_query($sql);
     }
     function close()
     {
